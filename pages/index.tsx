@@ -1,19 +1,8 @@
-import Link from "next/link";
+import type { NextPage } from "next";
+import styled from "styled-jsx/css";
 
-const HomePage = () => {
-  return (
-    <div>
-      <h1>Main Page Test</h1>
-      <ul>
-        <li>
-          <Link href="/portfolio">portfolio</Link>
-        </li>
-        <li>
-          <Link href="/clients">clients</Link>
-        </li>
-      </ul>
-    </div>
-  );
+const Home: NextPage = () => {
+  return <h1>메인 페이지</h1>;
 };
 
-export default HomePage;
+export default Home;
